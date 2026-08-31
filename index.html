@@ -1,20 +1,139 @@
- </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <div class="tagline">
-        CLOTHING THAT DEFINES YOU
-    </div>
+<title>VI7 Studio | Coming Soon</title>
 
-    <div class="stay">
-        STAY TUNED
-    </div>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-    <div class="coming">
-        SOMETHING UNIQUE IS COMING SOON.
-    </div>
+body {
+  min-height: 100vh;
+  background: #000;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.brand {
+  position: fixed;
+  top: 35px;
+  left: 40px;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 5px;
+}
+
+.container {
+  width: 90%;
+}
+
+.logo {
+  font-size: clamp(100px, 18vw, 220px);
+  font-weight: 900;
+  font-style: italic;
+  letter-spacing: -12px;
+  line-height: 0.85;
+}
+
+.tm {
+  font-size: 18px;
+  vertical-align: top;
+  letter-spacing: 0;
+}
+
+.tagline {
+  margin-top: 35px;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 7px;
+}
+
+.stay {
+  margin-top: 55px;
+  font-size: clamp(30px, 5vw, 60px);
+  font-weight: 700;
+  letter-spacing: 18px;
+}
+
+.coming {
+  margin-top: 25px;
+  color: #888;
+  font-size: 13px;
+  letter-spacing: 5px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 25px;
+  left: 0;
+  width: 100%;
+  color: #555;
+  font-size: 10px;
+  letter-spacing: 3px;
+}
+
+@media (max-width: 600px) {
+  .brand {
+    top: 25px;
+    left: 25px;
+    font-size: 11px;
+  }
+
+  .logo {
+    letter-spacing: -6px;
+  }
+
+  .tagline {
+    font-size: 9px;
+    letter-spacing: 4px;
+  }
+
+  .stay {
+    letter-spacing: 8px;
+  }
+
+  .coming {
+    font-size: 9px;
+    letter-spacing: 3px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<div class="brand">VI7 STUDIO</div>
+
+<div class="container">
+  <div class="logo">
+    VI7<span class="tm">™</span>
+  </div>
+
+  <div class="tagline">
+    CLOTHING THAT DEFINES YOU
+  </div>
+
+  <div class="stay">
+    STAY TUNED
+  </div>
+
+  <div class="coming">
+    SOMETHING UNIQUE IS COMING SOON.
+  </div>
 </div>
 
 <div class="footer">
-    VI7 STUDIO © 2026
+  VI7 STUDIO © 2026
 </div>
 
 </body>
